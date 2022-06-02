@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class CategoryController extends Controller
 {
 
+    // iNDEX
     public function index()
     {
         $categories = category::all();
